@@ -52,9 +52,6 @@ body{
 
 
 @media screen and (max-width: 580px) {
-  body {
-    background-color: lightgreen;
-  }
   .intro h1{
     font-size: 40px;
   }
