@@ -12,8 +12,10 @@ body{
   background: #151515;
   color: white;
 }
-
-.intro , .projects,.skills,.bio,.contact,.footer{
+.flex{
+  display: flex;
+}
+.intro , .projects,.skills,.bio,.footer{
   padding-left: 35px;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -55,7 +57,7 @@ body{
   font-size: 40px;
 }
 
-.projects p,.bio p,.contact p,footer p{
+.projects p,.bio p,footer p,.p{
   width: 90%;
  
    font-size: 15px;
@@ -122,8 +124,16 @@ body{
 footer {
  text-align: center;
 }
-
-
+footer p{
+  width: 100%;
+ 
+}
+.mail{
+  margin-top: 20px;
+}
+.mail i{
+  margin: 5px;
+}
 
 @media screen and (max-width: 580px) {
   .intro h1{
