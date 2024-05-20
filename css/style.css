@@ -1,3 +1,8 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Reddit+Mono:wght@200..900&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -10,19 +15,34 @@ body{
 }
 
 .intro{
-  background: red;
-  padding-left: 20px;
-  padding-top: 30px;
+  
+  padding-left: 25px;
+  padding-top: 35px;
   padding-bottom: 20px;
 }
 
 .intro h1{
-  font-size: 50px;
+  font-size: 60px;
+  
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+  /* font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
 }
 .intro h2{
   font-size: 20px;
+  margin: 5px 0;
+  
+  
 }
 .intro p{
   font-size: 15px;
-  margin: 10px 0;
+  margin: 20px 0;
+  color: #B4B4B8;
+  
 }
