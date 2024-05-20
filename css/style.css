@@ -8,3 +8,21 @@ body{
   background: #151515;
   color: white;
 }
+
+.intro{
+  background: red;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.intro h1{
+  font-size: 50px;
+}
+.intro h2{
+  font-size: 20px;
+}
+.intro p{
+  font-size: 15px;
+  margin: 10px 0;
+}
