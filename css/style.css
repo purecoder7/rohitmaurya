@@ -13,7 +13,7 @@ body{
   color: white;
 }
 
-.intro{
+.intro , .projects{
   padding-left: 35px;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -21,11 +21,12 @@ body{
 
 .intro h1{
   font-size: 60px;
+}
+.intro h1,.projects h2{
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-
 }
 .intro h2{
   font-size: 20px;
@@ -50,6 +51,43 @@ body{
   margin-left: 20px;
 }
 
+.projects h2{
+  font-size: 40px;
+}
+
+.projects p{
+  width: 90%;
+ 
+   font-size: 15px;
+  margin: 20px 0;
+  color: #B4B4B8;
+}
+
+.project {
+  margin: 40px 0;
+  border: 2px solid white;
+  padding: 15px;
+  margin-right: 80px;
+  border-radius: 20px;
+}
+
+.project h3{
+  font-size: 25px;
+  margin: 5px 0;
+  font-family: "Radio Canada Big", sans-serif;
+ font-weight: 100;
+}
+
+.project button{
+  padding: 11px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-family: "Reddit Mono", sans-serif;
+ font-weight: 800;
+}
+
 
 @media screen and (max-width: 580px) {
   .intro h1{
@@ -59,3 +97,4 @@ body{
     font-size: 15px;
   }
 }
+
