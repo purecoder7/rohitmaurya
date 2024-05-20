@@ -49,3 +49,16 @@ body{
 .links .fa-linkedin,.fa-instagram{
   margin-left: 20px;
 }
+
+
+@media screen and (max-width: 580px) {
+  body {
+    background-color: lightgreen;
+  }
+  .intro h1{
+    font-size: 40px;
+  }
+  .intro h2{
+    font-size: 15px;
+  }
+}
