@@ -13,7 +13,7 @@ body{
   color: white;
 }
 
-.intro , .projects,.skills{
+.intro , .projects,.skills,.bio,.contact{
   padding-left: 35px;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -55,7 +55,7 @@ body{
   font-size: 40px;
 }
 
-.projects p{
+.projects p,.bio p,.contact p{
   width: 90%;
  
    font-size: 15px;
@@ -115,38 +115,13 @@ body{
 }
 
 
-
-/* Style the track */
-input[type="range"] {
-  border-radius: 20px;
-  -webkit-appearance: none; /* Remove default styling */
-  width: 100%; /* Full width */
-  height: 10px; /* Track height */
-  background: #ddd; /* Track color */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Track opacity */
-  transition: opacity .15s ease-in-out; /* Smooth transition for hover effect */
+.bio h2{
+  font-size: 40px;
 }
 
-input[type="range"]:hover {
-  opacity: 1; /* Full opacity on hover */
+.contact h4{
+  
 }
-
-/* Style the thumb */
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Remove default styling */
-  appearance: none;
-  width: 15px; /* Thumb width */
-  height: 15px; /* Thumb height */
-  background: white; /* Thumb color */
-  cursor: pointer; /* Pointer cursor on hover */
-  border-radius: 50%; /* Rounded thumb */
-}
-
-
-
-
-
 
 
 @media screen and (max-width: 580px) {
